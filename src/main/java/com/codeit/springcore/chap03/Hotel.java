@@ -1,8 +1,5 @@
 package com.codeit.springcore.chap03;
 
-import com.codeit.springcore.chap02.Chef;
-import com.codeit.springcore.chap02.Restaurant;
-
 /**
  * @solution
  * - 객체 생성의 제어권을 이 클래스에서

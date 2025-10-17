@@ -1,8 +1,5 @@
 package com.codeit.springcore.chap03;
 
-import com.codeit.springcore.chap02.Chef;
-import com.codeit.springcore.chap02.Restaurant;
-
 public class WesternRestaurant implements Restaurant {
 
 

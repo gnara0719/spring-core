@@ -1,7 +1,5 @@
 package com.codeit.springcore.chap03;
 
-import com.codeit.springcore.chap02.Chef;
-
 public class KimChef implements Chef {
 
     public void cook() {
