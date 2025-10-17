@@ -1,6 +1,8 @@
 package com.codeit.springcore.chap01;
 
-public class WesternRestaurant {
+import com.codeit.springcore.chap02.Restaurant;
+
+public class WesternRestaurant implements Restaurant {
 
 
     private JohnChef chef = new  JohnChef();

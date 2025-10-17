@@ -1,5 +1,7 @@
 package com.codeit.springcore.chap01;
 
+import com.codeit.springcore.chap02.Restaurant;
+
 /**
  * @problem - 호텔 클래스에서 직접 객체를 생성하면
  *            나중에 의존객체(레스토랑, 헤드쉐프)를 변경해야 할 때
@@ -11,7 +13,7 @@ package com.codeit.springcore.chap01;
 public class Hotel {
 
     // 레스토랑
-    private WesternRestaurant restaurant = new WesternRestaurant();
+    private Restaurant restaurant = new WesternRestaurant();
 
     // 헤드쉐프
     private JohnChef headChef = new JohnChef();
